@@ -64,18 +64,18 @@ The system also provides daily and monthly ananlysis using tables, budget calcul
     11.View the spending and remaining budget through the pie chart.
     12.At the end of the month, click End Month to view the monthly summary.
 # Instructions for testing:
-1.Ensure that Python 3.x and the required libraries are installed.
-2.Install the required libraries using:
-    pip install ipywidgets matplotlib tabulate
-3.Keep all project .py modules in the same project folder.
-4.Open the project through Jupyter Notebook/JupyterLab when using the ipywidgets interface.
-5.Import the required functions from the Python modules.
-6.Run the main program and enter the monthly available amount.
-7.Select a date using the calendar.
-8.Use the Add Expense button to enter and save expense details.
-9.Verify that the saved expenses are displayed correctly.
-10.Add multiple expenses and verify the updated remaining budget.
-11.Test different dates, categories, payment methods, income, and savings values.
-12.If charts are included, verify that the charts represent the entered data correctly.
-13.Test different inputs and verify that the expected results are produced without errors.
-14.Check the results on different dates.
+    1.Ensure that Python 3.x and the required libraries are installed.
+        2.Install the required libraries using:
+        pip install ipywidgets matplotlib tabulate
+    3.Keep all project .py modules in the same project folder.
+    4.Open the project through Jupyter Notebook/JupyterLab when using the ipywidgets interface.
+    5.Import the required functions from the Python modules.
+    6.Run the main program and enter the monthly available amount.
+    7.Select a date using the calendar.
+    8.Use the Add Expense button to enter and save expense details.
+    9.Verify that the saved expenses are displayed correctly.
+    10.Add multiple expenses and verify the updated remaining budget.
+    11.Test different dates, categories, payment methods, income, and savings values.
+    12.If charts are included, verify that the charts represent the entered data correctly.
+    13.Test different inputs and verify that the expected results are produced without errors.
+    14.Check the results on different dates.
