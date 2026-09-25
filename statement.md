@@ -1,6 +1,6 @@
 # Problem Statement:
     College students and hostel students often have difficulty managing their monthly money because they make frequent small expenses on food, transportation, shopping, entertainment, academic requirements, and other daily needs. Without proper tracking, students may lose track of where their money is being spent and may exceed their planned budget and may not be able save money which is a basic skill.
-# Scoope of the Project:
+# Scope of the Project:
     The Project focuses on developing a Python-based expense management system for students.The system can be used to:
         1.Record daily expenses.
         2.Record savings.
