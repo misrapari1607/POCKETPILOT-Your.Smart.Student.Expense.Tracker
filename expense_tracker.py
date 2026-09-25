@@ -79,7 +79,8 @@ def create_calendar():
             align_items='stretch'
         )
     )
-    display(calendar_grid,output)
+    display(calendar_grid)
+    display(output)
 
 def expense_tracker():
     global selected_date
@@ -91,7 +92,6 @@ def expense_tracker():
         output.clear_output()
         print("EXPENSE TRACKER")
         print("Enter your expense details below:")
-        list_of_dates_daily.append(selected_date)
         global amount
         amount=widgets.FloatText(description="Amount:") 
         global category
@@ -152,6 +152,7 @@ def save_expense_clicked(b):
         output.clear_output()
         print("Expense saved successfully!")
         print("Selected date:", selected_date)
+        list_of_dates_daily.append(selected_date)
         list_of_expenses_daily.append(amount.value)
         list_of_cartegories_daily.append(category.value)
         list_of_Paymentmethods_daily.append(payment_method.value)
@@ -182,7 +183,7 @@ def dashboard():
         plt.pie(values,labels=labels,autopct="%1.1f%%")
         plt.title("Budget status")
         plt.show()
-
+        list_of_dates_daily.clear()
         list_of_expenses_daily.clear()
         list_of_cartegories_daily.clear()
         list_of_Paymentmethods_daily.clear()    
@@ -235,4 +236,3 @@ print("Click to get daily analysis:")
 display(Dashboard_button)
 print("Click to get monthly analysis:")
 display(End_month_button)
-
